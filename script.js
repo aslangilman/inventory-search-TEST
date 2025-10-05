@@ -12,7 +12,7 @@ function searchItem() {
   const resultBox = document.getElementById("result");
 
   if (!query) {
-    resultBox.innerText = "Please enter an item name.";
+    resultBox.innerText = "What would you like to find?";
     return;
   }
 
